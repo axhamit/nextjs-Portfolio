@@ -22,23 +22,24 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
-                1000,
+                "Ammar Tanvar",
+                3000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Frontend Developer",
                 1000,
-                "UI/UX Designer",
+                "Wordpress Developer",
+                1000,
+                "JavaScript Developer",
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={20}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Passionate frontend developer with 3 years of experience in building responsive, user-centric web applications using modern technologies like React, JavaScript, and Next.js.
           </p>
           <div>
             <Link
@@ -47,14 +48,15 @@ const HeroSection = () => {
             >
               Hire Me
             </Link>
-            <Link
-              href="/"
+            <a
+              href="/resume.pdf"
+              download
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </a>
           </div>
         </motion.div>
         <motion.div

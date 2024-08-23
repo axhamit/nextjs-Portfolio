@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Fullstack </li>
+        <li>Bangalore</li>
       </ul>
     ),
   },
@@ -57,12 +57,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a web developer with 3 years of experience specializing in
+            React, JavaScript, Next.js, and WordPress. I excel in building
+            dynamic, responsive, and user-friendly web applications that combine
+            functionality with exceptional design. My work is driven by a
+            passion for creating seamless digital experiences, optimized for
+            performance and scalability. With a keen eye for detail and a
+            commitment to staying current with industry trends, I deliver
+            solutions that not only meet but exceed client expectations
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
